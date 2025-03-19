@@ -1,0 +1,69 @@
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Encabezado */
+header {
+    background-color: #2e7d32; /* Verde - Vidrio */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sección principal */
+.hero {
+    background-color: #ffd600; /* Amarillo - Plásticos */
+    padding: 50px;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #1565c0; /* Azul - Papel y cartón */
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0d47a1;
+}
+
+/* Sección de contenido */
+.content {
+    background-color: #795548; /* Marrón - Orgánico */
+    padding: 20px;
+    color: white;
+}
+
+/* Pie de página */
+footer {
+    background-color: #2e7d32; /* Verde - Vidrio */
+    color: white;
+    padding: 10px;
+}
+
+  

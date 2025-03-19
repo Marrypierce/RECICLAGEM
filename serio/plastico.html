@@ -1,24 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Document :D</title><!-- Comentario -->
-    <link rel="stylesheet" href="style.css">
+    <title>Document :D</title>
+    <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 </head>
 <body>
     <header class="mt-3 text-center">  
-        <nav>
-            <ul type="circle">
-                <a type="button" class="btn btn-success" href="PLN.html">
-                    <li class="menu">NO RECICLABLES</li>
-                </a>
-                <a type="button" class="btn btn-success" href="materiales.html">
-                    <li class="menu">MATERIALES</li>
-                 </a>
-            </ul>
-        </nav>
+        <style>
+            
+            .meu-botao {
+                background-color: #4CAF50; 
+                color: white;              
+                padding: 15px 32px;       
+                font-size: 16px;           
+                border: none;              
+                border-radius: 5px;        
+                cursor: pointer;          
+            }
+    
+            
+            .meu-botao:hover {
+                background-color: #45a049; 
+            }
+        </style>
+    </head>
+    <body>
+        <button class="meu-botao" onclick="window.location.href='inicio.html';">VOLVER</button>
+        <button class="meu-botao" onclick="window.location.href='PLN.html';">NO RECICLABLES</button>
+    </body>
         <h1>PLASTICO</h1>
     </header>
     <main>
@@ -28,9 +40,26 @@
                 <p class="card-text">ALGUNOS DE LOS MATERIALES RECICLABLES</p>
             </div>
         </div>
-        
+        <h2> Cómo se recicla y en qué se utiliza</h2>
+        <p>El proceso de reciclaje del plástico es sencillo. En las plantas de reciclado se separa, en primer lugar, los plásticos reciclables de los no reciclables. Si bien esa es una tarea que puede desempeñar cada consumidor al asegurarse que el plástico que arroja al contenedor amarillo es reciclable, 
+            es imprescindible que haya una nueva criba, ya que de lo contrario se podría afectar al proceso</p>
+            <h2>Cómo se clasifican los plásticos</h2>
+            <p> 1. PET o PETE (Tereftalato de Polietileno): Uno de los plásticos más utilizados, sobre todo en la fabricación de botellas para alimentación. Se trata de uno de los más reciclados.
+                2. HDPE (Polietileno de Alta Densidad): Se trata de un tipo de plástico más denso y rígido, que se utiliza sobre todo para elaborar productos de limpieza y cosmética o tetrabriks.
+                3. PVC (Policloruro de Vinilo): Este material se utiliza sobre todo para la fabricación de botellas de champú y detergente, tuberías y mangueras.
+                4. LDPE o PEBD (Polietileno de Baja Densidad): su elasticidad permite emplearlo en film transparente, bolsas o botellas blandas.
+                5. PP (Polipropileno): Se trata de un material muy resistente a la presión, utilizado en la industria automovilística, la construcción y la fabricación de tapones y tapas herméticas.
+                6. PS (Poliestireno): se ve especialmente en envases desechables de alimentos, pero también en embalajes de electrodomésticos.
+                7. Otros plásticos: aquí se engloban los que combinan el plástico con otros materiales, así como los nuevos plásticos biodegradables que proceden de almidones vegetales.</p>
+             <h2>Qué plásticos se pueden reciclar</h2>
+             <p>De la clasificación anterior, los materiales que pueden reciclarse son el
+                 PET, el HDPE, el LDPE y el PP. Esto se traduce en que la mayoría de botellas, platos y vasos, tapones para envases, bandejas… 
+                 son reciclables y deben depositarse en el contenedor amarillo.  </p>
+
+
+                 <p>https://www.envaselia.com/blog/que-plasticos-se-reciclan-y-cuales-no-id11.htm</p>
     </main>
-    <footer class = "btn btn-primary text-white text-center py-3">
+    <footer class = "bg-success text-white text-center py-3">
         &#169 DAPHNE NASCIMENTO MENDES
     </footer>
     
