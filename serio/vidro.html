@@ -2,69 +2,98 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Document :D</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Vidrio Reciclable</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
+    <style>
+        
+        .meu-botao {
+            background-color: #2d7a30; 
+            color: white;              
+            padding: 15px 32px;        
+            font-size: 16px;           
+            border: none;             
+            border-radius: 5px;       
+            cursor: pointer;          
+        }
+
+        .meu-botao:hover {
+            background-color: #45a049; 
+        }
+
+       
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #1b8b1f;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: auto;
+        }
+       
+        .card-img-top {
+            max-height: 200px;
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body style="background-color: rgb(10, 235, 10);">
-<body>
-    <header class="mt-3 text-center">  
-        <style>
-            
-            .meu-botao {
-                background-color: #2d7a30; 
-                color: white;              
-                padding: 15px 32px;        
-                font-size: 16px;           
-                border: none;              
-                border-radius: 5px;        
-                cursor: pointer;          
-            }
-    
-            
-            .meu-botao:hover {
-                background-color: #45a049; 
-            }
-        </style>
-    </head>
-    <body>
+
+    <header class="mt-3 text-center">
         <button class="meu-botao" onclick="window.location.href='inicio.html';">VOLVER</button>
         <button class="meu-botao" onclick="window.location.href='VN.html';">NO RECICLABLES</button>
-    </body>
         <h1>VIDRIO</h1>
     </header>
+
     <main>
         <div class="card" style="width: 18rem; margin-left: auto; margin-right: auto;">
-            <img src="descarga (5).jpg" class="card-img-top" alt="...">
+            <img src="descarga (5).jpg" class="card-img-top" alt="Vidrio reciclable">
             <div class="card-body">
                 <p class="card-text">ALGUNOS DE LOS MATERIALES RECICLABLES</p>
             </div>
         </div>
-        <h1> Muchos tipos de vidrio son reciclables, pero no todos. </h1>
-        <p>Tipos de vasos que puedes desechar en recogida selectiva: botellas de cerveza, vinos, licores, aceite de oliva y tarros de conservas (palmitos, aceitunas, mermelada).
 
+        <h2>Muchos tipos de vidrio son reciclables, pero no todos.</h2>
+        <p>
+            Tipos de vasos que puedes desechar en recogida selectiva: botellas de cerveza, vinos, licores, aceite de oliva y tarros de conservas (palmitos, aceitunas, mermelada).
+        </p>
+        <p>
             Los vasos y platos de vidrio y los envases esmaltados también se consideran reciclables.
-            
-            Y esto incluye los cristales rotos, siempre que estén bien embalados para no herir a los coleccionistas y 
-            el personal de las cintas de separación de las cooperativas.</p>
-        <h2> Reciclaje de vidrio</h2>
-        <p> Compuesto básicamente de arena y piedra caliza, el vidrio, además de ser infinitamente reciclable, es uno de los materiales más sencillos y eficientes de reciclar.
+        </p>
+        <p>
+            Además, los cristales rotos son reciclables, siempre que estén bien embalados para no herir a los coleccionistas y al personal de las cintas de separación.
+        </p>
 
-            Es más barato invertir en reciclaje de vidrio y fabricar productos con materiales reutilizados que con materias primas vírgenes.  
-            
-            A diferencia del plástico, las botellas y tarros de vidrio se pueden reciclar sin que el producto final pierda calidad.
-            
-            La ONU nombró 2022 Año Internacional del Vidrio.
-             El objetivo es dar visibilidad al potencial sostenible del material.</p>
-           
-            <a href="https://www.ceroresiduo.com/tipos-vidrio-cuales-son-como-se-reciclan/?srsltid=AfmBOoqPJc58vMIhnyeAVLpSoo-Lp_EGTeN8Wa231Ep2VB36fqEedZfO" target="_blank">Vidrios </a>
+        <h3>Reciclaje de vidrio</h3>
+        <p>
+            Compuesto básicamente de arena y piedra caliza, el vidrio, además de ser infinitamente reciclable, es uno de los materiales más sencillos y eficientes de reciclar.
+        </p>
+        <p>
+            Es más barato invertir en reciclaje de vidrio y fabricar productos con materiales reutilizados que con materias primas vírgenes. A diferencia del plástico, las botellas y tarros de vidrio se pueden reciclar sin que el producto final pierda calidad.
+        </p>
+        <p>
+            La ONU nombró 2022 como el Año Internacional del Vidrio. El objetivo es dar visibilidad al potencial sostenible del material.
+        </p>
 
+        <a href="https://www.ceroresiduo.com/tipos-vidrio-cuales-son-como-se-reciclan/?srsltid=AfmBOoqPJc58vMIhnyeAVLpSoo-Lp_EGTeN8Wa231Ep2VB36fqEedZfO" target="_blank">Más sobre el reciclaje de vidrio</a>
     </main>
+
     <footer>
         <p>&copy; 2025 Reciclaje Sostenible. Todos los derechos reservados.</p>
     </footer>
 
-    
 </body>
 </html>
