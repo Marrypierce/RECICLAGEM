@@ -10,9 +10,9 @@ body {
     text-align: center;
 }
 
-/* Encabezado */
+
 header {
-    background-color: #2e7d32; /* Verde - Vidrio */
+    background-color: #2e7d32; 
     color: white;
     padding: 20px;
     text-align: center;
@@ -29,23 +29,23 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(231, 228, 228);
     text-decoration: none;
     font-weight: bold;
 }
 
-/* Sección principal */
+
 .hero {
-    background-color: #ffd600; /* Amarillo - Plásticos */
+    background-color: #ffd600; 
     padding: 50px;
-    color: #333;
+    color: #201d1d;
 }
 
 .btn {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 15px;
-    background-color: #1565c0; /* Azul - Papel y cartón */
+    background-color: #1565c0; 
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -69,6 +69,7 @@ footer {
     color: white;
     padding: 10px;
 }
+
 
   
 
